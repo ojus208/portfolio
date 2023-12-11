@@ -10,21 +10,21 @@ const Footer = () => {
         Ojus <span className="text-blue-3">Soni</span>
       </h1>
       <span className="flex justify-center items-center gap-3">
-        <Image src={copyright} alt="copyright icon" width={24} height={24} />
+        <Image src={copyright} alt="copyright icon" width={24} height={24}  />
         <p className="info-text">All Right Reserved</p>
       </span>
       <ul className="flex justify-center items-center gap-5">
         <Link href="#">
-        <Image src={facebook} width={24} height={24} />
+        <Image src={facebook} width={24} height={24} alt="facebook logo" />
         </Link>
         <Link href="#">
-        <Image src={instagram} width={24} height={24} />
+        <Image src={instagram} width={24} height={24} alt="instagram logo" />
         </Link>
         <Link href="#">
-        <Image src={linkedin} width={24} height={24} />
+        <Image src={linkedin} width={24} height={24} alt="linkedin logo" />
         </Link>
         <Link href="#">
-        <Image src={github} width={24} height={24} />
+        <Image src={github} width={24} height={24} alt="github logo" />
         </Link>
       </ul>
     </div>
