@@ -29,7 +29,7 @@ const Page = ({searchParams}) => {
           </p>
           <div className='flex-1 w-full flex flex-col justify-between items-start gap-5'>
             <h2 className='font-montserrat text-lg font-bold'>
-              you can see project related to technologies by clicking these button's
+              you can see project related to technologies by clicking these buttons
             </h2>
             <ul className='flex flex-wrap justify-start gap-2 items-center'>
               <Link href="?tech=Python" className='px-2 py-1 font-bold bg-blue-3 rounded-[10px] m-3 font-palanquin text-white border-2 border-blue-3 hover:bg-white hover:text-blue-3 duration-200'>
